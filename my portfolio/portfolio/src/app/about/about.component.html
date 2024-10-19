@@ -1,0 +1,36 @@
+<!-- <div class="about-me-container">
+  <div class="profile">
+    <img src="/photo.jpg" alt="Your Profile Picture" class="profile-pic" />
+  </div>
+
+  <div class="bio">
+    <div class="about">
+      <div class="content" *ngFor="let data of AllAbout">
+        <p>Title: <span>{{data.title}}</span></p>
+        <p>Description: <span>{{data.description}}</span></p>
+        <p>currentWork: <span>{{data.currentWork}}</span></p>
+        <p>Skills Title: <span>{{data.skillsTitle}}</span></p>
+        <p>Skills: <span>{{data.skills}}</span></p>
+        <p>Resume Text: <span>{{data.resumeText}}</span></p>
+      </div>
+    </div>
+</div> -->
+<div class="about-me-container">
+  <div class="profile">
+    <img src="/photo.jpg" alt="Your Profile Picture" class="profile-pic" />
+  </div>
+
+  <div class="bio">
+    <div class="about">
+      <h1>About Me</h1>
+      <div class="content" *ngFor="let data of AllAbout">
+        <p>Title: <span>{{data.title}}</span></p>
+        <p>Description: <span>{{data.description}}</span></p>
+        <p>Current Work: <span>{{data.currentWork}}</span></p>
+        <p>Skills: <span>{{data.skills}}</span></p>
+        <p>Resume: <span>{{data.resumeText}}</span></p>
+      </div>
+      <a href="/resume.pdf" class="btn-download" download>Download Resume</a>
+    </div>
+  </div>
+</div>

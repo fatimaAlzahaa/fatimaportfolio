@@ -1,0 +1,13 @@
+<section class="services-section">
+  <h2>My Services</h2>
+  <div class="services-grid">
+    <div *ngFor="let service of services" class="service-card">
+      <div class="icon-container">
+        <i [class]="service.icon"></i> <!-- Dynamically set icon -->
+      </div>
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.description }}</p>
+    </div>
+  </div>
+</section>
+

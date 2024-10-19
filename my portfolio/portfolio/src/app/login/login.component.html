@@ -1,0 +1,35 @@
+<div class="login-container">
+  <div *ngIf="logIn" class="login-box">
+    <h2>Login</h2>
+    <form [formGroup]="logIn" (ngSubmit)="login()">
+      <div class="form__group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          formControlName="email"
+          name="username"
+          placeholder="Enter your username"
+          required
+        />
+      </div>
+
+      <div class="form__group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          formControlName="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <button type="submit" class="btn-login">Login</button>
+    </form>
+  </div>
+  <div *ngIf="!logIn">
+    <p>The login form is not available.</p>
+  </div>
+</div>

@@ -1,0 +1,165 @@
+<div class="space"></div>
+
+<!-- Data Display -->
+<div class="about-me-container">
+  <div class="profile">
+    <img src="/photo.jpg" alt="Your Profile Picture" class="profile-pic" />
+  </div>
+
+  <div class="bio">
+    <div class="about">
+      <h1>About Me</h1>
+      <div class="content" *ngFor="let data of AllAbout">
+        <p>Title: <span>{{data.title}}</span></p>
+        <p>Description: <span>{{data.description}}</span></p>
+        <p>Current Work: <span>{{data.currentWork}}</span></p>
+        <p>Skills: <span>{{data.skills}}</span></p>
+        <p>Resume: <span>{{data.resumeText}}</span></p>
+        <button (click)="editAbout(data)">Edit</button>
+      </div>
+      <a href="/resume.pdf" class="btn-download" download>Download Resume</a>
+    </div>
+  </div>
+</div>
+
+<!-- Form for Updating Data -->
+<div class="Update">
+  <div class="container" *ngIf="selectedAbout">
+    <h2>Update About Information</h2>
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input id="title" formControlName="title" placeholder="Enter title" required />
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" formControlName="description" placeholder="Enter description" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="currentWork">Current Work</label>
+        <input id="currentWork" formControlName="currentWork" placeholder="Enter current work" required />
+      </div>
+
+      <div class="form-group">
+        <label for="skillsTitle">Skills Title</label>
+        <input id="skillsTitle" formControlName="skillsTitle" placeholder="Enter skills title" required />
+      </div>
+
+      <div class="form-group">
+        <label for="skills">Skills (comma-separated)</label>
+        <input id="skills" formControlName="skills" placeholder="Enter your skills" required />
+      </div>
+
+      <div class="form-group">
+        <label for="resumeText">Resume Text</label>
+        <textarea id="resumeText" formControlName="resumeText" placeholder="Enter resume text" required></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">Update About</button>
+    </form>
+  </div>
+
+  <ng-template #noData>
+    <p>No data available.</p>
+  </ng-template>
+</div>
+
+<!-- Projects Section -->
+<section class="projects-section" id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-grid">
+    <div class="card" *ngFor="let project of AllProject">
+      <img [src]="project.image" alt="{{ project.title }} image" class="card-img">
+      <div class="card-content">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.description }}</p>
+        <div class="card-links">
+          <a [href]="project.demoLink" target="_blank">Live Demo</a>
+          <a [href]="project.link" target="_blank">View Code</a>
+        </div>
+        <p>Technologies: {{ project.technologies }}</p>
+        <button (click)="editProject(project)">Edit</button>
+        <button (click)="deleteProject(project._id)">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="Update">
+    <div class="container" *ngIf="selectedProject">
+      <h2>Update Project Information</h2>
+      <form [formGroup]="projectForm" (ngSubmit)="onSubmitProject()">
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input id="title" formControlName="title" placeholder="Enter title" required />
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea id="description" formControlName="description" placeholder="Enter description" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="repoLink">Repo Link</label>
+          <input id="repoLink" formControlName="repoLink" placeholder="Enter repo link" required />
+        </div>
+
+        <div class="form-group">
+          <label for="technologies">Technologies (comma-separated)</label>
+          <input id="technologies" formControlName="technologies" placeholder="Enter technologies" required />
+        </div>
+
+        <div class="form-group">
+          <label for="image">Image URL</label>
+          <input id="image" formControlName="image" placeholder="Enter image URL" required />
+        </div>
+
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="input" id="date" formControlName="date" required />
+        </div>
+
+        <button type="submit" class="btn-submit">Update Project</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- __________________services___________ -->
+
+
+<section class="services-section">
+  <h2>My Services</h2>
+  <div class="services-grid">
+    <div *ngFor="let service of AllService" class="service-card">
+      <div class="icon-container">
+        <i [class]="service.icon"></i> <!-- Dynamically set icon -->
+      </div>
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.description }}</p>
+      <button (click)="editService(service)">Edit</button>
+    </div>
+  </div>
+</section>
+ <!-- Update Service Form -->
+ <div *ngIf="selectedService" class="update-service-form">
+  <h3>Update Service</h3>
+  <form [formGroup]="serviceForm" (ngSubmit)="onSubmitService()">
+    <div>
+      <label for="title">Title:</label>
+      <input id="title" formControlName="title" type="text" />
+    </div>
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" formControlName="description"></textarea>
+    </div>
+    <div>
+      <label for="icon">Icon:</label>
+      <input id="icon" formControlName="icon" type="text" />
+    </div>
+    <button type="submit">Update Service</button>
+    <button type="button" (click)="resetServiceForm()">Cancel</button>
+  </form>
+</div>
