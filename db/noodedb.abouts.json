@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "670a41d44028ad40710cf411"
+  },
+  "title": "Hi, I'm Fatima!",
+  "description": "I'm a passionate Computer Science and AI student at Helwan University, always excited about solving complex problems and building innovative solutions. My love for technology drives me to continuously improve my skills in Node.js, Angular, and backend development.",
+  "currentWork": "I am currently working on projects that bring ideas to life through code, including a professional platform built using modern technologies. I thrive in collaborative environments and aim to create impactful software that makes a difference.",
+  "skillsTitle": "My Skills",
+  "skills": [
+    "Full-Stack Web Development",
+    "Node.js, Express, and MongoDB",
+    "Angular and Frontend Design",
+    "REST APIs and Authentication",
+    "IT & Networking",
+    "packet tracer",
+    "Problem Solving & Algorithms"
+  ],
+  "resumeText": "this is my resumeText",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6710e176d16a112057704641"
+  },
+  "title": "Hi, I'm Fatima!",
+  "description": "I'm a passionate Computer Science and AI student at Helwan University, always excited about solving complex problems and building innovative solutions. My love for technology drives me to continuously improve my skills in Node.js, Angular, and backend development.",
+  "currentWork": "I am currently working on projects that bring ideas to life through code, including a professional platform built using modern technologies. I thrive in collaborative environments and aim to create impactful software that makes a difference.",
+  "skillsTitle": "My Skills",
+  "skills": [
+    "Full-Stack Web Development",
+    "Node.js, Express, and MongoDB",
+    "Angular and Frontend Design",
+    "REST APIs and Authentication",
+    "IT & Networking",
+    "packet tracer",
+    "Problem Solving & Algorithms"
+  ],
+  "resumeText": "this is my resumeText",
+  "__v": 0
+}]

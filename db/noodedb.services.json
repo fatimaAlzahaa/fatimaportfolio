@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "670a2d09e93a9550ff68f6b8"
+  },
+  "title": "Database Management'",
+  "description": "Ensuring data integrity and performance with database management.",
+  "icon": "1729336391250.svg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670a3480838208fae8c8b3e1"
+  },
+  "title": "Graphic Design",
+  "description": "Crafting visually stunning and intuitive user interfaces that blend creativity with functionality, ensuring an engaging and seamless experience for every user. ",
+  "icon": "1728722048085.svg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670a3567838208fae8c8b3e3"
+  },
+  "title": "IT & Networks",
+  "description": "Delivering robust, scalable, and secure cloud infrastructure solutions tailored to optimize your business's growth and operational efficiency.",
+  "icon": "1728722279320.svg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670a36d294eaeedb7600dcce"
+  },
+  "title": "Database Management'",
+  "description": "Ensuring data integrity and performance with database management.",
+  "icon": "1728722642538.svg",
+  "__v": 0
+}]

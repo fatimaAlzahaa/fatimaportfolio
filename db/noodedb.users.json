@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "67093e4fa1ff7c2181439243"
+  },
+  "name": "sara",
+  "email": "sara@gamil.come",
+  "password": "$2b$10$FZ49Fiu96DfO.UwDE705iuKsIu3IkiMZT.3xxIFGRor5Czk/RHCnq",
+  "userType": {
+    "$oid": "67091d1ba1ff7c2181439237"
+  },
+  "createdAt": {
+    "$date": "2024-10-11T15:03:43.594Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T15:03:43.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670946f5a1ff7c2181439245"
+  },
+  "name": "ahmad",
+  "email": "ahmad@gamil.come",
+  "password": "$2b$10$OIe5rOc6YUqgWWg4j8GQ4ObynVoUYQx5lNrahTO4kDZcP84Yo2Hpy",
+  "userType": {
+    "$oid": "67091d1ba1ff7c2181439237"
+  },
+  "createdAt": {
+    "$date": "2024-10-11T15:40:37.787Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T15:40:37.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67094781a1ff7c2181439249"
+  },
+  "name": "omar",
+  "email": "omar@gamil.come",
+  "password": "$2b$10$txJylnliu.dE0Z65/XbSaO2quLfIuHn0yJyzkYCf4noZz6JP7qaR6",
+  "userType": {
+    "$oid": "67065758b5d6b1bf6192ef97"
+  },
+  "createdAt": {
+    "$date": "2024-10-11T15:42:57.269Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T15:42:57.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67099d0f9389d4d89c800f07"
+  },
+  "email": "ali@gamil.come",
+  "password": "$2b$10$SoW5keam0KmRzelncA.nH.w1D87wg00U7JZT/khqVU37cmyr57k72",
+  "createdAt": {
+    "$date": "2024-10-11T21:47:59.269Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T21:47:59.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6709a1cbeade6eab8168344b"
+  },
+  "name": "dina",
+  "email": "dina@gamile",
+  "password": "$2b$10$gvC12LFjpYnX31VMCmoKCO929V6/r.MfWJxuBGOEexxA9bUdxJJ6O",
+  "userType": {
+    "$oid": "67091d1ba1ff7c2181439237"
+  },
+  "createdAt": {
+    "$date": "2024-10-11T22:08:11.895Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T22:08:11.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6709a2d5eade6eab8168344d"
+  },
+  "name": "sera",
+  "email": "sera@gamile",
+  "password": "$2b$10$3sU5EpSvI8xLkhS7V5jEj.HKfefQ4dKCsbK6Yf3gPDWQwt4.MP8r6",
+  "userType": {
+    "$oid": "67091d1ba1ff7c2181439237"
+  },
+  "createdAt": {
+    "$date": "2024-10-11T22:12:37.557Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T22:12:37.557Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "6709aff00ef2e92c3cfefdef"
+  },
+  "title": "Vitamid",
+  "description": "Vitamid is a user-friendly online pharmacy platform designed to make healthcare more accessible and convenient. With a wide range of pharmaceutical products, vitamins, supplements, and wellness essentials, Vitamid allows users to easily search, browse, and order their medications from the comfort of their homes. Our platform is equipped with advanced features, including prescription upload, secure payment options  ",
+  "technologies": [
+    "HTML5, CSS3, JavaScript"
+  ],
+  "link": "hjnkk",
+  "date": {
+    "$date": "2024-10-11T23:08:32.405Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6709e795e93a9550ff68f6ae"
+  },
+  "title": "ShopEase",
+  "description": "ShopEase is an e-commerce web application designed to streamline the online shopping experience by offering users a seamless and user-friendly platform for browsing, purchasing, and managing products. The platform is built with modern web technologies to ensure performance, security, and scalability, making it suitable for both small and large businesses.",
+  "technologies": [
+    "mongodb"
+  ],
+  "link": "https://github.com/ESLAM-MK/E-Commerce-App.git",
+  "image": "1728702357050.png",
+  "date": {
+    "$date": "2024-10-12T03:05:57.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6709e95fe93a9550ff68f6b0"
+  },
+  "title": "Online Food Delivery",
+  "description": "The Online Food Delivery platform is a web and mobile-based application that connects users with their favorite local restaurants, enabling them to browse menus, place orders, and have food delivered directly to their doorstep. Designed with convenience in mind, the platform provides a seamless experience for both customers and restaurant owners, streamlining the food ordering process and enhancing customer satisfaction.",
+  "technologies": [
+    "mongodb"
+  ],
+  "link": "https://github.com/ESLAM-MK/E-Commerce-App.git",
+  "image": "1728702815953.png",
+  "date": {
+    "$date": "2024-10-12T03:13:35.958Z"
+  },
+  "__v": 0
+}]
